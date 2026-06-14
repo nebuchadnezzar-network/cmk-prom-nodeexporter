@@ -27,3 +27,6 @@ The Dashboard is also multi-host aware compared to the regular node exporter das
 
 ### Future 
 There are many interesting dashboards that could be created using Checkmk metrics. I'm currently investigating if an Active Directory dashboard could be created.
+
+#### Note on AI
+This work was mainly done by AI due to the number of panels but the initial work was done by hand. The mapping of node exporter metrics with Checkmk is the hard work, the Dashboard contains over 16.000 lines of data and would have taken ages to do manually. 
