@@ -25,6 +25,9 @@ We already have workflows in Grafana and we already exports metrics into Victori
 
 The Dashboard is also multi-host aware compared to the regular node exporter dashboard you can download from Grafana. This mimics the "Windows" and "Linux" dashboards in Checkmk. 
 
+### Labels 
+There are three labels, two of these are custom but the last one is host_name and that's a generic label checkmk sets and can be used to filter hosts in the dashboard, remember it supports multiple hosts. 
+
 ### Future 
 There are many interesting dashboards that could be created using Checkmk metrics. I'm currently investigating if an Active Directory dashboard could be created.
 
